@@ -1,0 +1,106 @@
+use_less_col:335
+使用的特征维度: 1762
+********************** RUN CATBOOST MODEL **********************
+******************  当前的 SEED 42 ********************** 
+FOLD 1 IS RUNNING...
+0:	learn: 1.2939006	test: 1.2943096	best: 1.2943096 (0)	total: 135ms	remaining: 22m 27s
+800:	learn: 0.2057676	test: 0.2778188	best: 0.2778188 (800)	total: 1m 2s	remaining: 11m 55s
+1600:	learn: 0.1533318	test: 0.2698555	best: 0.2698522 (1599)	total: 2m 4s	remaining: 10m 54s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.2677497192
+bestIteration = 2222
+
+Shrink model to first 2223 iterations.
+{'learn': {'MultiClass': 0.12163532058790176}, 'validation': {'MultiClass': 0.26774971916097773}}
+FOLD 2 IS RUNNING...
+0:	learn: 1.2947765	test: 1.2944610	best: 1.2944610 (0)	total: 81.8ms	remaining: 13m 38s
+800:	learn: 0.2009925	test: 0.2969940	best: 0.2969940 (800)	total: 1m 2s	remaining: 11m 53s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.2898436422
+bestIteration = 1413
+
+Shrink model to first 1414 iterations.
+{'learn': {'MultiClass': 0.15671545706553627}, 'validation': {'MultiClass': 0.2898436422052235}}
+FOLD 3 IS RUNNING...
+0:	learn: 1.2956904	test: 1.2979653	best: 1.2979653 (0)	total: 83.6ms	remaining: 13m 55s
+800:	learn: 0.2010365	test: 0.3031897	best: 0.3031249 (796)	total: 1m 2s	remaining: 11m 56s
+1600:	learn: 0.1521093	test: 0.2952955	best: 0.2952927 (1598)	total: 2m 4s	remaining: 10m 54s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.2948664255
+bestIteration = 1799
+
+Shrink model to first 1800 iterations.
+{'learn': {'MultiClass': 0.13764700334845772}, 'validation': {'MultiClass': 0.2948664254808659}}
+FOLD 4 IS RUNNING...
+0:	learn: 1.2944941	test: 1.2931731	best: 1.2931731 (0)	total: 83.8ms	remaining: 13m 58s
+800:	learn: 0.2055831	test: 0.2798750	best: 0.2798750 (800)	total: 1m 2s	remaining: 11m 54s
+1600:	learn: 0.1555797	test: 0.2733073	best: 0.2732265 (1590)	total: 2m 4s	remaining: 10m 54s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.2729804824
+bestIteration = 1672
+
+Shrink model to first 1673 iterations.
+{'learn': {'MultiClass': 0.14819996336927216}, 'validation': {'MultiClass': 0.27298048242230794}}
+FOLD 5 IS RUNNING...
+0:	learn: 1.2909100	test: 1.2914652	best: 1.2914652 (0)	total: 86.9ms	remaining: 14m 29s
+800:	learn: 0.2014462	test: 0.2983963	best: 0.2983963 (800)	total: 1m 2s	remaining: 11m 55s
+1600:	learn: 0.1523926	test: 0.2909189	best: 0.2907775 (1582)	total: 2m 4s	remaining: 10m 54s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.2898741689
+bestIteration = 1887
+
+Shrink model to first 1888 iterations.
+{'learn': {'MultiClass': 0.13391467495348316}, 'validation': {'MultiClass': 0.289874168865446}}
+
+OOF-MEAN-ERROR score:0.283063, OOF-STD:0.010657
+Inint Score: 0.7240031522090993
+round:  1
+class:0, new_weight:1.01, f1 score: 0.7242893038330873
+class:0, new_weight:1.02, f1 score: 0.7244468658037289
+class:0, new_weight:1.03, f1 score: 0.7247189260435818
+class:0, new_weight:1.05, f1 score: 0.7247883133652404
+class:0, new_weight:1.06, f1 score: 0.7253074441711662
+class:0, new_weight:1.07, f1 score: 0.7255838308898628
+class:0, new_weight:1.09, f1 score: 0.7258591461588992
+class:0, new_weight:1.1, f1 score: 0.7263732069942956
+class:0, new_weight:1.11, f1 score: 0.7269810148203093
+class:0, new_weight:1.12, f1 score: 0.727085092104794
+class:0, new_weight:1.19, f1 score: 0.7275673332111965
+class:0, new_weight:1.2, f1 score: 0.7277300984468054
+class:0, new_weight:1.21, f1 score: 0.7300337938032027
+class:0, new_weight:1.22, f1 score: 0.7302916982856817
+class:0, new_weight:1.32, f1 score: 0.7302972834627351
+class:0, new_weight:1.33, f1 score: 0.7305212560605624
+class:0, new_weight:1.34, f1 score: 0.7307742905548762
+class:0, new_weight:1.3800000000000001, f1 score: 0.731115696618317
+class:0, new_weight:1.3900000000000001, f1 score: 0.7311341774607671
+class:0, new_weight:1.4000000000000001, f1 score: 0.7321211157346706
+class:0, new_weight:1.41, f1 score: 0.732530278451288
+class:0, new_weight:1.42, f1 score: 0.7326514907204666
+class:0, new_weight:1.43, f1 score: 0.7326655042252155
+class:0, new_weight:1.44, f1 score: 0.7340465325949609
+class:0, new_weight:1.45, f1 score: 0.7349701799847135
+class:2, new_weight:0.47000000000000003, f1 score: 0.7351355277520346
+class:2, new_weight:0.51, f1 score: 0.7352366908078052
+class:2, new_weight:0.52, f1 score: 0.7354704485017871
+class:2, new_weight:0.53, f1 score: 0.7356003615547112
+class:2, new_weight:0.54, f1 score: 0.7358162977063339
+class:2, new_weight:0.55, f1 score: 0.7360528528073605
+class:2, new_weight:0.6, f1 score: 0.7360930396635706
+class:2, new_weight:0.62, f1 score: 0.7361315695490319
+class:3, new_weight:0.77, f1 score: 0.736236509770795
+class:3, new_weight:0.79, f1 score: 0.7362861930960579
+class:3, new_weight:0.8, f1 score: 0.73637330491084
+class:3, new_weight:0.81, f1 score: 0.7364039172775363
+class:3, new_weight:0.8200000000000001, f1 score: 0.7365143106346561
+class:3, new_weight:0.8300000000000001, f1 score: 0.7366247783303799
+round:  2
+class:2, new_weight:0.55, f1 score: 0.7366811046538598
+round:  3
+********************** SEARCH BEST WEIGHT : [1.45, 1.0, 0.55, 0.8300000000000001] **********************
+********************** BEST MACRO_F1 : 0.7366811046538598 **********************
