@@ -1,0 +1,12 @@
+Archive:  model.zip
+   creating: model/deberta-base/
+  inflating: model/debert_model_v21_128_fs_flod_5.h5  
+  inflating: model/debert_model_v21_128_fs_flod_6.h5  
+  inflating: model/debert_model_v21_128_fs_flod_8.h5  
+  inflating: model/README.txt        
+  inflating: model/weight_cs6399_fold_8_v21_128_fs.npy  
+  inflating: model/weight_cs6558_fold_5_v21_128_fs.npy  
+  inflating: model/weight_cs6614_fold_6_v21_128_fs.npy  
+  inflating: model/weight_fs6138_fold_8_v21_128_fs.npy  
+  inflating: model/weight_fs6280_fold_5_v21_128_fs.npy  
+  inflating: model/weight_fs6359_fold_6_v21_128_fs.npy  
