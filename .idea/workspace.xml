@@ -37,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653988069044</updated>
       <workItem from="1653988070376" duration="1680000" />
+      <workItem from="1654767330536" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="添加第三届阿里云磐久智维算法大赛亚军方案">
       <created>1653988253675</created>
@@ -68,6 +69,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加第三届阿里云磐久智维算法大赛亚军方案" />
